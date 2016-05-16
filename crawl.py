@@ -49,13 +49,6 @@ class MyCrawler(scrapy.Spider):
                 print temp_text[i] + ' ' + total_href[i]
 
 
-        real_total = zip(total_href,total_text)
-        for total_href, total_text in real_total:
-            print total_text, total_href
-
-
-        for i in range(10):
-            print total_text[i]
 
 
 pass
